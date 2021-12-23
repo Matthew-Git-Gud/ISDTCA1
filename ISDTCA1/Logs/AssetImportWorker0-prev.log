@@ -15,11 +15,11 @@ C:/Users/Zytro/OneDrive/Documents/GitHub/ISDtCA1/ISDTCA1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49331
+55607
 Successfully changed project path to: C:/Users/Zytro/OneDrive/Documents/GitHub/ISDtCA1/ISDTCA1
 C:/Users/Zytro/OneDrive/Documents/GitHub/ISDtCA1/ISDTCA1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004073 seconds.
+Registered in 0.003665 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.140 seconds
+- Completed reload, in  0.657 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1141ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (890ms)
-			LoadAssemblies (98ms)
+		EndReloadAssembly (501ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (297ms)
+			SetupTypeCache (152ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (326ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (166ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007599 seconds.
+Registered in 0.004882 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.090 seconds
+- Completed reload, in  1.191 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2092ms)
-		BeginReloadAssembly (236ms)
+	ReloadAssembly (1192ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1745ms)
-			LoadAssemblies (138ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (974ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (563ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (755ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (420ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (129ms)
-				ProcessInitializeOnLoadAttributes (580ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1978 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.1 MB.
+System memory in use before: 90.2 MB.
 System memory in use after: 90.2 MB.
 
 Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2407.
-Total: 5.513900 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.090400 ms MarkObjects: 4.728200 ms  DeleteObjects: 0.487000 ms)
+Total: 4.031400 ms (FindLiveObjects: 0.122000 ms CreateObjectMapping: 0.037700 ms MarkObjects: 3.533200 ms  DeleteObjects: 0.337300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,137 +132,723 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc088d1731b590f9572c6f2bab98c6a') in 0.019602 seconds 
-  Import took 0.024961 seconds .
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/StairCase_01_snaps001.asset
+  artifactKey: Guid(819fe431b79562e4f877f2d457964c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/StairCase_01_snaps001.asset using Guid(819fe431b79562e4f877f2d457964c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36406aca09110cffca29b76aabe3c31') in 0.115318 seconds 
+  Import took 0.118886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.693169 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(f561ac314dd9638488e1aeaddafc2fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f561ac314dd9638488e1aeaddafc2fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35484424260ee6038f9019b4bc80fdd5') in 0.013576 seconds 
-  Import took 0.019367 seconds .
+  Time since last request: 0.000318 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Meshes/StairCase_01_4m_Collider.asset
+  artifactKey: Guid(044c4b404b5b2c041a8e65c42f022566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Meshes/StairCase_01_4m_Collider.asset using Guid(044c4b404b5b2c041a8e65c42f022566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cd24157607e9ce93de3f72086bd4ec') in 0.018190 seconds 
+  Import took 0.021335 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.015736 seconds.
-  path: Assets/Scenes/Office.unity
-  artifactKey: Guid(ab5e0f443a7885548add8b0e4dcff136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Office.unity using Guid(ab5e0f443a7885548add8b0e4dcff136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa975826ad383ec452d54e64595874a7') in 0.013482 seconds 
-  Import took 0.019926 seconds .
+  Time since last request: 0.000254 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/StairCase_01_4m_snaps001.prefab
+  artifactKey: Guid(5f52a5120f1de6d4b8a490f2646760f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/StairCase_01_4m_snaps001.prefab using Guid(5f52a5120f1de6d4b8a490f2646760f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a331de66024fc1d1acf8310e3ceaa48a') in 0.036318 seconds 
+  Import took 0.040259 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.965780 seconds.
-  path: Assets/Image/airship.png
-  artifactKey: Guid(b4dca5484f369624c84a0633e9a0faa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/airship.png using Guid(b4dca5484f369624c84a0633e9a0faa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55590662d71bf32977cf1c17259139c') in 0.174211 seconds 
-  Import took 0.180805 seconds .
+  Time since last request: 0.000377 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Meshes/StairCase_01_4m_snaps001.asset
+  artifactKey: Guid(3ffc2678d7607124495fadcf0070a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/SNAPS_NoHD/Meshes/StairCase_01_4m_snaps001.asset using Guid(3ffc2678d7607124495fadcf0070a2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f02ce6d3fcf6c58bb21217553406e7c') in 0.016078 seconds 
+  Import took 0.019188 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Image/Logo.png
-  artifactKey: Guid(1fa0c087f617718429332cd8f0f175c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Image/Logo.png using Guid(1fa0c087f617718429332cd8f0f175c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce46ee05f4f1d2d5568b0f9da0435347') in 0.096777 seconds 
-  Import took 0.101754 seconds .
+  Time since last request: 0.000264 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/StairCase_01_Collider.asset
+  artifactKey: Guid(b2b1ef5883ed21a419cabf971d227a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/StairCase_01_Collider.asset using Guid(b2b1ef5883ed21a419cabf971d227a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2ad1d0866d136c9a4897569451018a') in 0.016363 seconds 
+  Import took 0.020061 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.098710 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets
-  artifactKey: Guid(3de6a505ee1395544a2f0a3dfdc1e170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets using Guid(3de6a505ee1395544a2f0a3dfdc1e170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7145dc51c382a0f5d711df4a82370482') in 0.013203 seconds 
-  Import took 0.018496 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/StairCase_01_snaps001.prefab
+  artifactKey: Guid(36d22ed5102e16246b559668ee32f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/StairCase_01_snaps001.prefab using Guid(36d22ed5102e16246b559668ee32f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878463765a293348310f341e16ba0d53') in 0.019459 seconds 
+  Import took 0.023606 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.691368 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts
-  artifactKey: Guid(eddea875761715844b0901e16bdb49ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts using Guid(eddea875761715844b0901e16bdb49ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef1459eaddf8313469779f7a9142604') in 0.013167 seconds 
-  Import took 0.018422 seconds .
+  Time since last request: 552.298669 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/ComputerDesk_01_snaps001.prefab
+  artifactKey: Guid(1311ead9e03725440bcd145a4ddd5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/ComputerDesk_01_snaps001.prefab using Guid(1311ead9e03725440bcd145a4ddd5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f30b5d830e9720f212563542d167ed') in 0.027516 seconds 
+  Import took 0.037160 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.922103 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor
-  artifactKey: Guid(859610b2291d44b42831dc3d02c34958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor using Guid(859610b2291d44b42831dc3d02c34958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ba7d4b992c68ee010d63b3b925d245') in 0.012597 seconds 
-  Import took 0.018392 seconds .
+  Time since last request: 0.000317 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Desklamp_01_snaps001.prefab
+  artifactKey: Guid(af66cb781f2abe44abe97b567b10153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Desklamp_01_snaps001.prefab using Guid(af66cb781f2abe44abe97b567b10153a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11599b3c9334f4e00b765369f9d059e1') in 0.018495 seconds 
+  Import took 0.022501 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.993360 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker
-  artifactKey: Guid(f0b9ec4ed56461443bda931e699c6667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/Scripts/Editor/PackageChecker using Guid(f0b9ec4ed56461443bda931e699c6667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0184d90c9d97b3cec84d102ad3df88ef') in 0.011638 seconds 
-  Import took 0.016804 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Desklamp_01_snaps001.asset
+  artifactKey: Guid(1df632968889f9d408fdfdd505478181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/Desklamp_01_snaps001.asset using Guid(1df632968889f9d408fdfdd505478181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a27300ef390afd3b3e2213cbcb4039') in 0.015149 seconds 
+  Import took 0.018815 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.909041 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes
-  artifactKey: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d88d3e5124eb2057e959bcb5f7a501a') in 0.013048 seconds 
-  Import took 0.018925 seconds .
+  Time since last request: 0.000371 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/ComputerDesk_02_snaps001.asset
+  artifactKey: Guid(8a46a18674a4b8e42b093cfbf4d1ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/ComputerDesk_02_snaps001.asset using Guid(8a46a18674a4b8e42b093cfbf4d1ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b961569d38eff3d5070db8cb12324') in 0.015866 seconds 
+  Import took 0.019508 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.076741 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_SampleLayout.unity
-  artifactKey: Guid(2194fe559202da244a6cc0ad8cbc636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_SampleLayout.unity using Guid(2194fe559202da244a6cc0ad8cbc636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8a2c8f732d8e72b78d29108440a32d') in 0.012887 seconds 
-  Import took 0.019796 seconds .
+  Time since last request: 0.000276 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/ComputerDesk_01_snaps001.asset
+  artifactKey: Guid(54d64021c660d164f8d7f9461497586d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/Meshes/ComputerDesk_01_snaps001.asset using Guid(54d64021c660d164f8d7f9461497586d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ceb36af872a99e38de91f13b6908ff5') in 0.016492 seconds 
+  Import took 0.020786 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.309737 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_PrefabLayout.unity
-  artifactKey: Guid(acdd8911a304f1e4aa73dcd9f6be5461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_PrefabLayout.unity using Guid(acdd8911a304f1e4aa73dcd9f6be5461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc20afa3e6d6e43a7fb8742ff42d1d41') in 0.010191 seconds 
-  Import took 0.015340 seconds .
+  Time since last request: 0.000439 seconds.
+  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/ComputerDesk_02_snaps001.prefab
+  artifactKey: Guid(d11695e43d89ff24bb36886a4c039c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/Prefabs/Props/ComputerDesk_02_snaps001.prefab using Guid(d11695e43d89ff24bb36886a4c039c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33e79da3e627ee4d747cfa7102268b0') in 0.016733 seconds 
+  Import took 0.020300 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004931 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1377ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1135ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1933 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2419.
+Total: 2.523600 ms (FindLiveObjects: 0.117800 ms CreateObjectMapping: 0.049500 ms MarkObjects: 2.277000 ms  DeleteObjects: 0.078600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 177.928991 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage
+  artifactKey: Guid(9fca020f46d3cf9409c95385e46b4705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage using Guid(9fca020f46d3cf9409c95385e46b4705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd373e09f00db9ad6626014bcace5e405') in 0.016111 seconds 
+  Import took 0.019133 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.899203 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_SampleLayout
-  artifactKey: Guid(70bf20e15eb614943916757c1a6d5c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_SampleLayout using Guid(70bf20e15eb614943916757c1a6d5c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16e79a20d19a8f7b9021e5a405bcd4e') in 0.010980 seconds 
-  Import took 0.016956 seconds .
+  Time since last request: 0.969713 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs
+  artifactKey: Guid(464e7c7290c02b840aafd42058ee3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs using Guid(464e7c7290c02b840aafd42058ee3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3845c49140c60cacb65efa27ee8daeed') in 0.008398 seconds 
+  Import took 0.011282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044096 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/12-6_Sign.prefab
+  artifactKey: Guid(b0844629a591dac48b8f8aee8374516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/12-6_Sign.prefab using Guid(b0844629a591dac48b8f8aee8374516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d15d6548d257e9e8b1030658366529e') in 0.021159 seconds 
+  Import took 0.025361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Fire_Exit_Symbol_Sign.prefab
+  artifactKey: Guid(e598f06814749c048b1311ec5b1c2406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Fire_Exit_Symbol_Sign.prefab using Guid(e598f06814749c048b1311ec5b1c2406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b085dc96f6a1d7d869b798f9c611e207') in 0.012887 seconds 
+  Import took 0.016258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Caution_Sign.prefab
+  artifactKey: Guid(492714b6522b9f1468f266c074464d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Caution_Sign.prefab using Guid(492714b6522b9f1468f266c074464d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c074e1ff9606ddd96288d21c7f6c4462') in 0.009465 seconds 
+  Import took 0.012728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Electric_Sign.prefab
+  artifactKey: Guid(9617ce884e5e75941972c9bf24f57c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Electric_Sign.prefab using Guid(9617ce884e5e75941972c9bf24f57c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a9fb6a053ad6f78a0bf5d41affe682') in 0.010712 seconds 
+  Import took 0.013650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Emergency_Exit_Sign.prefab
+  artifactKey: Guid(b9deccbeafae1284dadbca842910b069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Emergency_Exit_Sign.prefab using Guid(b9deccbeafae1284dadbca842910b069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242160b8c119549e90bc5aac870f62fd') in 0.010170 seconds 
+  Import took 0.014366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Camera_Sign.prefab
+  artifactKey: Guid(ab89551b8976a9a4e9b87346642917ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Camera_Sign.prefab using Guid(ab89551b8976a9a4e9b87346642917ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2506047e0ca07e5ff71e563ce706b1') in 0.011058 seconds 
+  Import took 0.014245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Attention_Sign.prefab
+  artifactKey: Guid(6e114499c035a3349abe69d9563ecdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Attention_Sign.prefab using Guid(6e114499c035a3349abe69d9563ecdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddfedfe95de2ca142c9da23bf0e7446e') in 0.009899 seconds 
+  Import took 0.012974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Fire_Exit_Text_Sign.prefab
+  artifactKey: Guid(e271365227db6874dbff547b96d6a2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Fire_Exit_Text_Sign.prefab using Guid(e271365227db6874dbff547b96d6a2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19fc7003d7d8b0d84d4dbedd23533b0') in 0.009502 seconds 
+  Import took 0.012583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Construction_Sign.prefab
+  artifactKey: Guid(68496e8904d33f547adb54dc83e51cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Construction_Sign.prefab using Guid(68496e8904d33f547adb54dc83e51cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7fd9d7a7bc40b19f772c3ed351cf66') in 0.011239 seconds 
+  Import took 0.014502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Bridge_Sign.prefab
+  artifactKey: Guid(7d52c3a23a55e5840af9165a09a60d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Bridge_Sign.prefab using Guid(7d52c3a23a55e5840af9165a09a60d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08825057e104ff5699338baae460be75') in 0.010507 seconds 
+  Import took 0.013846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Disabled_Sign.prefab
+  artifactKey: Guid(e70a2df0ce5281e42ad7f7ff48fca798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Disabled_Sign.prefab using Guid(e70a2df0ce5281e42ad7f7ff48fca798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857b7a09a1052b547f7fc33331dcad2b') in 0.011188 seconds 
+  Import took 0.015322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Danger_Keep_Out_Sign.prefab
+  artifactKey: Guid(0156d6b3d158e894586ad4a9fa2ebea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Danger_Keep_Out_Sign.prefab using Guid(0156d6b3d158e894586ad4a9fa2ebea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81b31d42e24d745f24a05b61915999b') in 0.010088 seconds 
+  Import took 0.013906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Danger_Volt_Sign.prefab
+  artifactKey: Guid(2402f7cbce5a9ba49a4c311852a86776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Danger_Volt_Sign.prefab using Guid(2402f7cbce5a9ba49a4c311852a86776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bb5799addad1e8bb8b876df0faf2d7') in 0.010716 seconds 
+  Import took 0.013293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.697072 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Hard_Hat_Sign.prefab
+  artifactKey: Guid(a83d3a356d0614d419bdfbb3ec4142ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Hard_Hat_Sign.prefab using Guid(a83d3a356d0614d419bdfbb3ec4142ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffc62ae2bd6ab830479805332a4439c') in 0.019387 seconds 
+  Import took 0.024649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/No_Parking_Sign.prefab
+  artifactKey: Guid(a839afec22990704ea63a632f372ca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/No_Parking_Sign.prefab using Guid(a839afec22990704ea63a632f372ca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b89d65e8532687b9705c0425297d1b8') in 0.009784 seconds 
+  Import took 0.012992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Low_Bridge_Sign.prefab
+  artifactKey: Guid(3f052cbf885eba746a1cebf7fb67657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Low_Bridge_Sign.prefab using Guid(3f052cbf885eba746a1cebf7fb67657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3260a52f74d01f10e0a6cff93ef6af8c') in 0.010966 seconds 
+  Import took 0.014085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Maximum_Sign.prefab
+  artifactKey: Guid(d78fcaa58da817545a38a16c37a51706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Maximum_Sign.prefab using Guid(d78fcaa58da817545a38a16c37a51706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef920f0c13b452dac2b3e0fa1180a075') in 0.010317 seconds 
+  Import took 0.013351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/No_Pass_Sign.prefab
+  artifactKey: Guid(f6f6156a9df9f4744bea91b0a67c5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/No_Pass_Sign.prefab using Guid(f6f6156a9df9f4744bea91b0a67c5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a60dde7c93799704969968596d30caa') in 0.010953 seconds 
+  Import took 0.014537 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000440 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_SampleLayout/NavMesh.asset
-  artifactKey: Guid(b37893b42a8c0b04fbadcd452e350b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior/SampleScenes/ModernOffice_Interior_SampleLayout/NavMesh.asset using Guid(b37893b42a8c0b04fbadcd452e350b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec91b8b9a90a294e21c6fa8fd607ce5') in 0.018370 seconds 
-  Import took 0.023804 seconds .
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Maximum_Pole_Sign.prefab
+  artifactKey: Guid(680093e3c7f2e8c41865a70ce9d96efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Maximum_Pole_Sign.prefab using Guid(680093e3c7f2e8c41865a70ce9d96efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d9ca0001800d8b77baf40d0c6b7683') in 0.009550 seconds 
+  Import took 0.013081 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.334141 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About
-  artifactKey: Guid(844809bda0ef59246a44bb3ec8a99a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About using Guid(844809bda0ef59246a44bb3ec8a99a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108f00c080ca4d0af3cc4b54e5f130b3') in 0.018076 seconds 
-  Import took 0.027041 seconds .
+  Time since last request: 6.043798 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdddd331c3f1b7826858a8d92db67e39') in 0.101189 seconds 
+  Import took 0.107620 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/About/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2ebd2844e1cee09475f357c3afb310') in 0.018109 seconds 
-  Import took 0.025951 seconds .
+  Time since last request: 23.552065 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures
+  artifactKey: Guid(4420350125777bc479438c70728a01e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures using Guid(4420350125777bc479438c70728a01e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621cf4fc2809d68c953bb189ee022eea') in 0.008767 seconds 
+  Import took 0.011746 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.527786 seconds.
-  path: Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior
-  artifactKey: Guid(297b5e148799d744c923d359390b9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOffice_Interior using Guid(297b5e148799d744c923d359390b9f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b382af6214a672e13f1eec7c105d30fa') in 0.015209 seconds 
-  Import took 0.023467 seconds .
+  Time since last request: 0.100597 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_1_1024_Diff.tga
+  artifactKey: Guid(df72c1ee252814a4b8de31fdd3551b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_1_1024_Diff.tga using Guid(df72c1ee252814a4b8de31fdd3551b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16da138b74a0fb7f8454aa86b605b788') in 0.117595 seconds 
+  Import took 0.120723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_4_1024_NRM.tga
+  artifactKey: Guid(a99521529414fbc49af6084beb49f3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_4_1024_NRM.tga using Guid(a99521529414fbc49af6084beb49f3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0865519329988bbd175ee2b947a881c') in 0.020931 seconds 
+  Import took 0.025389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_2_1024_Diff.tga
+  artifactKey: Guid(1e1e2ba42c4dc314495f98e5cbe51a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_2_1024_Diff.tga using Guid(1e1e2ba42c4dc314495f98e5cbe51a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4fe4d73b40c2a43bc11e8d49f6d770') in 0.013987 seconds 
+  Import took 0.017448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_1_1024_NRM.tga
+  artifactKey: Guid(57659384deb48b1449715b067e9f833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_1_1024_NRM.tga using Guid(57659384deb48b1449715b067e9f833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf1940106ca8abf1f2e34ad97e71e39') in 0.013609 seconds 
+  Import took 0.016628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_3_1024_Diff.tga
+  artifactKey: Guid(b5dcd5437047dd14ea5ce5b35c59181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_3_1024_Diff.tga using Guid(b5dcd5437047dd14ea5ce5b35c59181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7108d5366291464ce2b1dad68dcec51f') in 0.013728 seconds 
+  Import took 0.017100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_3_1024_NRM.tga
+  artifactKey: Guid(bd53f822ae24f2c4fad5198b30f6fc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_3_1024_NRM.tga using Guid(bd53f822ae24f2c4fad5198b30f6fc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7604d0768d4ed37aaa773e4b4c4d8708') in 0.014223 seconds 
+  Import took 0.017434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_2_1024_NRM.tga
+  artifactKey: Guid(17887274c8e5da643ad389b0a0b8b695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_2_1024_NRM.tga using Guid(17887274c8e5da643ad389b0a0b8b695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60a610ba4821caf53d1235612e0a182') in 0.015824 seconds 
+  Import took 0.019996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_4_1024_Diff.tga
+  artifactKey: Guid(107efd00f38a34f49b1a36bbe5f19e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/Signs_4_1024_Diff.tga using Guid(107efd00f38a34f49b1a36bbe5f19e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce856eb0eca44d58904a05afb5a58a19') in 0.014644 seconds 
+  Import took 0.018237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/White_Brick_1024_Diff.jpg
+  artifactKey: Guid(82d84995da0fa7548955266fe0752f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/White_Brick_1024_Diff.jpg using Guid(82d84995da0fa7548955266fe0752f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43e9dcdc961c32e8c82d99f92751c15') in 0.020650 seconds 
+  Import took 0.023723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.390610 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Textures/Whtie_Brick_1024_NRM.tga
+  artifactKey: Guid(12e21e35d3b82194eb8d752659e6b384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Textures/Whtie_Brick_1024_NRM.tga using Guid(12e21e35d3b82194eb8d752659e6b384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7934c50943eb813e4d2970df8f9af2') in 0.019737 seconds 
+  Import took 0.024275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.150693 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/12-6_Sign.prefab
+  artifactKey: Guid(b0844629a591dac48b8f8aee8374516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/12-6_Sign.prefab using Guid(b0844629a591dac48b8f8aee8374516f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a7fbe36049c7b4abb59c0603e01009') in 0.006086 seconds 
+  Import took 0.010272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Caution_Sign.prefab
+  artifactKey: Guid(492714b6522b9f1468f266c074464d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Caution_Sign.prefab using Guid(492714b6522b9f1468f266c074464d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c50f1d14111668dfd29fc8def2fd9ab') in 0.007070 seconds 
+  Import took 0.012647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Camera_Sign.prefab
+  artifactKey: Guid(ab89551b8976a9a4e9b87346642917ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Camera_Sign.prefab using Guid(ab89551b8976a9a4e9b87346642917ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232c82eaa94d8f52da0ebebc46861b64') in 0.010429 seconds 
+  Import took 0.013909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Attention_Sign.prefab
+  artifactKey: Guid(6e114499c035a3349abe69d9563ecdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Attention_Sign.prefab using Guid(6e114499c035a3349abe69d9563ecdbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cefd2ed77fdb49e07f9f26fc43f9ef8') in 0.005073 seconds 
+  Import took 0.007725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Construction_Sign.prefab
+  artifactKey: Guid(68496e8904d33f547adb54dc83e51cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Construction_Sign.prefab using Guid(68496e8904d33f547adb54dc83e51cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc594e3a51feb4495a42a721cad2eeb') in 0.004471 seconds 
+  Import took 0.007939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Bridge_Sign.prefab
+  artifactKey: Guid(7d52c3a23a55e5840af9165a09a60d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Bridge_Sign.prefab using Guid(7d52c3a23a55e5840af9165a09a60d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13180b03c69471939720904a24d9a55c') in 0.004970 seconds 
+  Import took 0.007987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Danger_Keep_Out_Sign.prefab
+  artifactKey: Guid(0156d6b3d158e894586ad4a9fa2ebea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Danger_Keep_Out_Sign.prefab using Guid(0156d6b3d158e894586ad4a9fa2ebea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb702894737cbbb23dec36c2f35494ec') in 0.005402 seconds 
+  Import took 0.008738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Danger_Volt_Sign.prefab
+  artifactKey: Guid(2402f7cbce5a9ba49a4c311852a86776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Danger_Volt_Sign.prefab using Guid(2402f7cbce5a9ba49a4c311852a86776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63bb1db18112e91f46b10778a497a84') in 0.005096 seconds 
+  Import took 0.008875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.215596 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Stop_Sign.prefab
+  artifactKey: Guid(0775fe9115c18124caf336f41b695a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Stop_Sign.prefab using Guid(0775fe9115c18124caf336f41b695a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f81441071e322185d8621a46476bf8') in 0.008792 seconds 
+  Import took 0.012210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Warning_Electric_Sign.prefab
+  artifactKey: Guid(3abf508722c9b2b4e9d8f9902620f52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Warning_Electric_Sign.prefab using Guid(3abf508722c9b2b4e9d8f9902620f52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c702f46f53e69a0c55e2d898ea784a') in 0.009396 seconds 
+  Import took 0.012528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Weight_Limit_Sign.prefab
+  artifactKey: Guid(247a726ebe1f0134fb73ec994e850129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Weight_Limit_Sign.prefab using Guid(247a726ebe1f0134fb73ec994e850129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d129bcb1b664b6872e848c8d091e37') in 0.011123 seconds 
+  Import took 0.014238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Toxic_Sign.prefab
+  artifactKey: Guid(af2fc9b3028f29449a836848d5e73956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Toxic_Sign.prefab using Guid(af2fc9b3028f29449a836848d5e73956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8180e9dc4839434b7f681ff1e680fce8') in 0.010584 seconds 
+  Import took 0.014024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.254760 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/School_Bus_Stop_Sign.prefab
+  artifactKey: Guid(65c3ea953938b584fb6f678e032e8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/School_Bus_Stop_Sign.prefab using Guid(65c3ea953938b584fb6f678e032e8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89e0f7d6a8c6f66b7f071161eaf7ca8') in 0.019585 seconds 
+  Import took 0.024475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Security_Sign_1.prefab
+  artifactKey: Guid(346e576b826286549ac936d5827451e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Security_Sign_1.prefab using Guid(346e576b826286549ac936d5827451e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfd3db03db3b7a5a23c2c200302c69b') in 0.012853 seconds 
+  Import took 0.017638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Safety_Equipment_Sign.prefab
+  artifactKey: Guid(da64bb6485883884eaacc07b2eda3ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Safety_Equipment_Sign.prefab using Guid(da64bb6485883884eaacc07b2eda3ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e527574243c72c3df57d5464887c6575') in 0.011406 seconds 
+  Import took 0.014287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Road_Sign_Pole.prefab
+  artifactKey: Guid(25ec2bea76abf3942ac16775af9453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Road_Sign_Pole.prefab using Guid(25ec2bea76abf3942ac16775af9453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56fa6f90079bfb8ddee8d2b1874a3b2') in 0.009137 seconds 
+  Import took 0.012376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.252606 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/No_Parking_Sign.prefab
+  artifactKey: Guid(a839afec22990704ea63a632f372ca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/No_Parking_Sign.prefab using Guid(a839afec22990704ea63a632f372ca40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8691097eda4a666b47e01ab538b175a2') in 0.009297 seconds 
+  Import took 0.016026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/No_Pass_Sign.prefab
+  artifactKey: Guid(f6f6156a9df9f4744bea91b0a67c5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/No_Pass_Sign.prefab using Guid(f6f6156a9df9f4744bea91b0a67c5abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab359930ead0578743f24f5335b0059') in 0.007134 seconds 
+  Import took 0.011335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044359 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Maximum_Pole_Sign.prefab
+  artifactKey: Guid(680093e3c7f2e8c41865a70ce9d96efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Maximum_Pole_Sign.prefab using Guid(680093e3c7f2e8c41865a70ce9d96efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7235435831e3571748dadbb9d4039d1') in 0.004974 seconds 
+  Import took 0.008466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Maximum_Sign.prefab
+  artifactKey: Guid(d78fcaa58da817545a38a16c37a51706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Maximum_Sign.prefab using Guid(d78fcaa58da817545a38a16c37a51706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dc231755b35dd90178cdc09fb780b7') in 0.005128 seconds 
+  Import took 0.008219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245667 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Hard_Hat_Sign.prefab
+  artifactKey: Guid(a83d3a356d0614d419bdfbb3ec4142ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Hard_Hat_Sign.prefab using Guid(a83d3a356d0614d419bdfbb3ec4142ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ec1106f7d50aa810a5b36c50302962') in 0.015856 seconds 
+  Import took 0.021877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Low_Bridge_Sign.prefab
+  artifactKey: Guid(3f052cbf885eba746a1cebf7fb67657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Low_Bridge_Sign.prefab using Guid(3f052cbf885eba746a1cebf7fb67657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c895871f4a05cbacfb3d01a3ffc24cb') in 0.005943 seconds 
+  Import took 0.011007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038784 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Fire_Exit_Symbol_Sign.prefab
+  artifactKey: Guid(e598f06814749c048b1311ec5b1c2406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Fire_Exit_Symbol_Sign.prefab using Guid(e598f06814749c048b1311ec5b1c2406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb7fb495cd5d291241996d38167e53a') in 0.004516 seconds 
+  Import took 0.007323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Fire_Exit_Text_Sign.prefab
+  artifactKey: Guid(e271365227db6874dbff547b96d6a2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Fire_Exit_Text_Sign.prefab using Guid(e271365227db6874dbff547b96d6a2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6ba7e2cf965344217ec710081fba37') in 0.004569 seconds 
+  Import took 0.007644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.834421 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Models/Signs Pack.FBX
+  artifactKey: Guid(66a066352711e4d41b9f204e1887f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Models/Signs Pack.FBX using Guid(66a066352711e4d41b9f204e1887f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd026bae720b6ef189c0e90c30301c4ad') in 0.291389 seconds 
+  Import took 0.296216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.828153 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Materials/M_Sign_Atlas_1.mat
+  artifactKey: Guid(a9fa7f749bb472a4da3bf43b5aa87e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Materials/M_Sign_Atlas_1.mat using Guid(a9fa7f749bb472a4da3bf43b5aa87e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbefac9339057b1571317f7c5fba6c2') in 0.037044 seconds 
+  Import took 0.042027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.085068 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Materials/M_Sign_Atlas_2.mat
+  artifactKey: Guid(dd982b022946baf44939a3160a2bcb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Materials/M_Sign_Atlas_2.mat using Guid(dd982b022946baf44939a3160a2bcb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b84e391c227831e724ae572e6027dc6') in 0.023735 seconds 
+  Import took 0.031800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Materials/M_Sign_Atlas_3.mat
+  artifactKey: Guid(5712b892792847f409be25b8077effe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Materials/M_Sign_Atlas_3.mat using Guid(5712b892792847f409be25b8077effe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5829a7f7477848ada00a9fb5c4397f3b') in 0.033388 seconds 
+  Import took 0.038091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.819530 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Materials/M_Sign_Atlas_4.mat
+  artifactKey: Guid(fc52cfd237c7e4249a4c61ebd2afd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Materials/M_Sign_Atlas_4.mat using Guid(fc52cfd237c7e4249a4c61ebd2afd3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2446373d8533d407fd6630ecfe6e55f5') in 0.018998 seconds 
+  Import took 0.024212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.583379 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Road_Sign_Pole.prefab
+  artifactKey: Guid(25ec2bea76abf3942ac16775af9453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Road_Sign_Pole.prefab using Guid(25ec2bea76abf3942ac16775af9453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f92f2281097abfa1e1b914c204bd77') in 0.020480 seconds 
+  Import took 0.025846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.517438 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Safety_Equipment_Sign.prefab
+  artifactKey: Guid(da64bb6485883884eaacc07b2eda3ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Safety_Equipment_Sign.prefab using Guid(da64bb6485883884eaacc07b2eda3ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ced7466c85363f69b5907efd7bae26') in 0.019945 seconds 
+  Import took 0.024440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044367 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/School_Bus_Stop_Sign.prefab
+  artifactKey: Guid(65c3ea953938b584fb6f678e032e8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/School_Bus_Stop_Sign.prefab using Guid(65c3ea953938b584fb6f678e032e8696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d88c8cbd727d97e2cdac6571b86f46') in 0.017274 seconds 
+  Import took 0.020661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.699443 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Security_Sign_1.prefab
+  artifactKey: Guid(346e576b826286549ac936d5827451e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Security_Sign_1.prefab using Guid(346e576b826286549ac936d5827451e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '938f20073b90d2ad9d1bbf55caf60187') in 0.020523 seconds 
+  Import took 0.024809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.280102 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Stop_Sign.prefab
+  artifactKey: Guid(0775fe9115c18124caf336f41b695a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Stop_Sign.prefab using Guid(0775fe9115c18124caf336f41b695a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070413b157b39c82ca5f9a30966f26cb') in 0.020741 seconds 
+  Import took 0.025758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001040 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Toxic_Sign.prefab
+  artifactKey: Guid(af2fc9b3028f29449a836848d5e73956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Toxic_Sign.prefab using Guid(af2fc9b3028f29449a836848d5e73956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018a727e05a82d96bfc041e8fa0fe466') in 0.018698 seconds 
+  Import took 0.022680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.323950 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Warning_Electric_Sign.prefab
+  artifactKey: Guid(3abf508722c9b2b4e9d8f9902620f52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Warning_Electric_Sign.prefab using Guid(3abf508722c9b2b4e9d8f9902620f52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30cc11c5411b23ecbc227740e4e885e') in 0.025257 seconds 
+  Import took 0.029168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027321 seconds.
+  path: Assets/Industrial Sign Pack/AssetPackage/Prefabs/Weight_Limit_Sign.prefab
+  artifactKey: Guid(247a726ebe1f0134fb73ec994e850129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Industrial Sign Pack/AssetPackage/Prefabs/Weight_Limit_Sign.prefab using Guid(247a726ebe1f0134fb73ec994e850129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e08812b0e0f11be929cfe2e0dad946') in 0.015908 seconds 
+  Import took 0.020044 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
