@@ -5,9 +5,15 @@ using UnityEngine.UI;
 
 public class ItemPickup : MonoBehaviour
 {
-    void OnTriggerEnter(Collider other){
-        if(other.tag == "Weapon"){
-            Destroy (other.gameObject);
+    public GameObject myWeapon;
+    public GameObject weaponOnGround;
+    void Start(){
+        myWeapon.SetActive(false);
+    }
+    void OnTriggerEnter(Collider _collider){
+        if(_collider.gameObject.tag=="Player"){
+            myWeapon.SetActive(true);
+            weaponOnGround.SetActive(false);
         }
     }
     
