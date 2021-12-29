@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MyProject/Scenes/Office.unity
+- path: Assets/MyProject/Scenes/OfficewithModel.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
