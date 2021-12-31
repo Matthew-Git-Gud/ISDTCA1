@@ -5,7 +5,6 @@ public class FadeCamera : MonoBehaviour
     #region Variables
     //Private Variables
 
-    public GameObject FadeOutCanvas;
     [SerializeField] private RectTransform _fadeScreenRectTransform;
 
     [Header("Fade Settings")]
@@ -18,17 +17,13 @@ public class FadeCamera : MonoBehaviour
     protected void Start()
     {
         var seq = LeanTween.sequence();
-        seq.append(2f);
+        seq.append(6f);
         seq.append( () => {
             FadeOutCam();
         });
-        seq.append(2f);
+        seq.append(5f);
         seq.append( () => {
             FadeInCam();
-        });
-        seq.append(1f);
-        seq.append( () => {
-            FadeOutCanvas.SetActive(false);
         });
     }
     #endregion

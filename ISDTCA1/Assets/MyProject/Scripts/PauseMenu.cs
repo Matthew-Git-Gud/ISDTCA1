@@ -8,36 +8,19 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
-    private AudioSource[] allAudioSources;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             if(GameIsPaused)
             {
-                PlayAllAudio();
                 Resume();
             } else
-            {   
-                StopAllAudio();
+            {
                 Pause();
             }
-        }
-    }
-
-    void PlayAllAudio() {
-        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-        foreach( AudioSource audioS in allAudioSources) {
-            audioS.Play();
-        }
-    }
-
-    void StopAllAudio() {
-        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-        foreach( AudioSource audioS in allAudioSources) {
-            audioS.Stop();
         }
     }
 
