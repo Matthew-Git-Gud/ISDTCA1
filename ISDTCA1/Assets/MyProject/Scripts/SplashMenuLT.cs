@@ -5,6 +5,8 @@ public class SplashMenuLT : MonoBehaviour
     #region Variables
     //Private Variables
 
+    private AudioSource[] allAudioSources;
+    public GameObject Logo;
     [SerializeField] private GameObject _splashScr;
 
     [Header("SplashScreen Settings")]
@@ -28,7 +30,7 @@ public class SplashMenuLT : MonoBehaviour
     protected void Start()
     {
         var seq = LeanTween.sequence();
-        seq.append(6f);
+        seq.append(2f);
         seq.append( () => {
             FadeInLogo();
         });
@@ -38,7 +40,9 @@ public class SplashMenuLT : MonoBehaviour
         });
         seq.append(1f);
         seq.append( () => {
+            Logo.SetActive(false);
             ShowDecalAndMenu();
+            PlayAllAudio();
         }); 
     }
     #endregion
@@ -69,6 +73,13 @@ public class SplashMenuLT : MonoBehaviour
     {
         _decalJetHammer.SetActive(true);
         LeanTween.alphaCanvas(_mainMenuPanel, 1f, 1f);
+    }
+
+    void PlayAllAudio() {
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach( AudioSource audioS in allAudioSources) {
+            audioS.Play();
+        }
     }
     #endregion
 }

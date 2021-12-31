@@ -18,6 +18,11 @@ public class MenuOptions : MonoBehaviour
         SceneManager.LoadScene ("Office");
     }
 
+    public void startVRgame()
+    {
+        SceneManager.LoadScene ("ISDTCA1");
+    }
+
     public void Menu()
     {
         MainPanel.SetActive(true);

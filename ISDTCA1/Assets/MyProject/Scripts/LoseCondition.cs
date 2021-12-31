@@ -6,7 +6,15 @@ using UnityEngine.UI;
 public class LoseCondition : MonoBehaviour
 {
     public Slider healthbar;
-    public GameObject LosePanel;
+    public GameObject LosePanelFire;
+    public GameObject LosePanelSmoke;
+    private AudioSource[] allAudioSources;
+
+    public void Start()
+    {
+        Time.timeScale = 1f;
+        PlayAllAudio();
+    } 
 
     void OnTriggerEnter(Collider collider)
     {
@@ -14,24 +22,48 @@ public class LoseCondition : MonoBehaviour
 
         if (collider.gameObject.tag == "Fire")
         {
-            StartCoroutine(WaitForSeconds());
+            StartCoroutine(LostFire());
         }
 
     }
 
-    IEnumerator WaitForSeconds()
+    IEnumerator LostFire()
     {
         yield return new WaitForSecondsRealtime(0);
-        LosePanel.SetActive(true);
+        LosePanelFire.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0f;
+        StopAllAudio();
     }
 
+    IEnumerator LostSmoke()
+    {
+        yield return new WaitForSecondsRealtime(0);
+        LosePanelSmoke.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Time.timeScale = 0f;
+        StopAllAudio();
+    }
+
+    void PlayAllAudio() {
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach( AudioSource audioS in allAudioSources) {
+            audioS.Play();
+        }
+    }
+
+    void StopAllAudio() {
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach( AudioSource audioS in allAudioSources) {
+            audioS.Stop();
+        }
+    }
+    
     void Update()
     {
         if (healthbar.value <= 0)
         {
-            StartCoroutine(WaitForSeconds());
+            StartCoroutine(LostSmoke());
         }
     }
 }

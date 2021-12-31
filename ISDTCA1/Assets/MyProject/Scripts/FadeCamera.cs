@@ -4,7 +4,9 @@ public class FadeCamera : MonoBehaviour
 {
     #region Variables
     //Private Variables
-
+    
+    private AudioSource[] allAudioSources;
+    public GameObject FadeOutCanvas;
     [SerializeField] private RectTransform _fadeScreenRectTransform;
 
     [Header("Fade Settings")]
@@ -16,14 +18,19 @@ public class FadeCamera : MonoBehaviour
     // Start is called before the first frame update
     protected void Start()
     {
+        StopAllAudio();
         var seq = LeanTween.sequence();
-        seq.append(6f);
+        seq.append(2f);
         seq.append( () => {
             FadeOutCam();
         });
-        seq.append(5f);
+        seq.append(2f);
         seq.append( () => {
             FadeInCam();
+        });
+        seq.append(1f);
+        seq.append( () => {
+            FadeOutCanvas.SetActive(false);
         });
     }
     #endregion
@@ -41,6 +48,13 @@ public class FadeCamera : MonoBehaviour
 
     public void FadeOutCam(){
         LeanTween.alpha(_fadeScreenRectTransform, 0f, _fadeOutTime);
+    }
+
+    void StopAllAudio() {
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach( AudioSource audioS in allAudioSources) {
+            audioS.Stop();
+        }
     }
     #endregion
 }

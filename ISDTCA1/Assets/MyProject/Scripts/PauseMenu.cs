@@ -6,24 +6,39 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-
+    private AudioSource[] allAudioSources;
     public GameObject pauseMenuUI;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             if(GameIsPaused)
             {
+                PlayAllAudio();
                 Resume();
             } else
             {
+                StopAllAudio();
                 Pause();
             }
         }
     }
 
+    void PlayAllAudio() {
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach( AudioSource audioS in allAudioSources) {
+            audioS.Play();
+        }
+    }
+
+    void StopAllAudio() {
+        allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+        foreach( AudioSource audioS in allAudioSources) {
+            audioS.Stop();
+        }
+    }
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
