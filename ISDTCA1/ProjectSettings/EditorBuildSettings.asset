@@ -17,3 +17,5 @@ EditorBuildSettings:
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 2f6c10b67180c5442b800da809def52a, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 21b99d36e89455344af703bac597b7e9, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 955b890ba3900ac488cb4289d14d47dd, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 1537f0946f6a0714f8fb24c97810e896, type: 2}
