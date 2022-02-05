@@ -4,19 +4,30 @@ using UnityEngine;
 
 public class ShootWater : MonoBehaviour
 {
-    public bool Pulled = false;
-
-    public void onSafetyPinPull()
+    public bool firePulled = false;
+    public bool waterPulled = false;
+    public void onFireSafetyPinPull()
     {
-        Debug.Log("Pulled!");
-        Pulled = true;
+        Debug.Log("Fire Pulled!");
+        firePulled = true;
     }
-
+    public void onWaterSafetyPinPull()
+    {
+        Debug.Log("Water Pulled!");
+        waterPulled = true;
+    }
     public void OnShoot()
     {
-        if (Pulled == true)
+        if (firePulled == true)
         {
             Instantiate(Resources.Load("Projectile"), transform.position, transform.rotation);
+        }
+    }
+    public void ShootWrong()
+    {
+        if (waterPulled == true)
+        {
+            Instantiate(Resources.Load("water"), transform.position, transform.rotation);
         }
     }
     public void HoverOver(){

@@ -14,8 +14,6 @@ public class Projectile : MonoBehaviour
     void OnTriggerEnter(Collider other){
         if (other.tag == "Enemy"){
             Debug.Log("Hit!");
-            // Instantiate(Resources.Load("Collectable"),other.transform.position,Quaternion.Euler(90,0,0));
-            // Instantiate(Resources.Load("PickupEffect"),other.transform.position,Quaternion.Euler(90,0,0));
             Destroy (other.gameObject);
             
         }
