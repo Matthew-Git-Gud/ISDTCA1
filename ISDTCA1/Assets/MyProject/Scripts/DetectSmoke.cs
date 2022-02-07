@@ -7,13 +7,13 @@ public class DetectSmoke : MonoBehaviour
 {
     public Slider healthbar;
     Animator anim;
-    public string opponent;
+    public string enemy;
     public GameObject Collider;
     bool TakeDamage = true;
 
     void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag != opponent) return;
+        if (other.gameObject.tag != enemy) return;
 
         if (TakeDamage)
         {
